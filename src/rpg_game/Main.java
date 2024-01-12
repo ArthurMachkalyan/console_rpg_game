@@ -24,5 +24,6 @@ public class Main {
         } else {
             System.out.println("Game over!");
         }
+        Party party1 = new Party(new Mage("Leo"), new Warrior("kell"), new Archer("Deni"));
     }
 }
